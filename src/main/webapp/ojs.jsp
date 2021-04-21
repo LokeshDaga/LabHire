@@ -126,7 +126,7 @@ check c=new check();
     <h1 style="color:#DCDCDC;">Old Jobs</h1>
     <br>
 <ul>
-<%// to list all the old jobs
+<%// to list all the  jobs added by the employer and on clicking on any one of them he can get all the employees who have applied for the job
 for (String t : value)  { 
       %>
        <li><a href="profile.jsp?product=<%=t%>"><span><%=t%></span></a></li>

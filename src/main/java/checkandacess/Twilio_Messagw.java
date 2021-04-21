@@ -5,8 +5,8 @@ import com.twilio.type.PhoneNumber;
 
 public class Twilio_Messagw {
  
-  public static final String ACCOUNT_SID = "AC3c7b3dd4a8e06c3ace6a6917b96b62a8";
-  public static final String AUTH_TOKEN = "9c9da7c7aad9b26942f806b515e2b5ef";
+  private static final String ACCOUNT_SID = "AC3c7b3dd4a8e06c3ace6a6917b96b62a8";
+  private static final String AUTH_TOKEN = "6b2fda3d3b8a19382eabd6b0679b7229";
 
   public  void main1(String number,String Service,String city,Long pay,String more,int jid) {
     Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
